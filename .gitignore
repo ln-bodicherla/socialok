@@ -1,41 +1,70 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
+__pycache__/
+!.env.example
+!.env.sample
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
+.build/
 .DS_Store
+.eggs/
+.env
+.env.*
+.env*
+.idea/
+.pnp.*
+.pnpm-debug.log*
+.swiftpm/
+.venv/
+.vercel
+.vscode/
+.yarn/*
+*.app
+*.db
+*.db-shm
+*.db-wal
+*.egg-info/
+*.ipa
+*.key
 *.pem
-
+*.pyc
+*.secret
+*.sqlite
+*.sqlite3
+*.tsbuildinfo
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+/.next/
+/.pnp
+/build
+/coverage
+/node_modules
+/out/
+# Build
+# Databases
 # debug
+# dependencies
+# Dependencies
+# env files (can opt-in for committing if needed)
+# IDE
+# misc
+# next.js
+# OS
+# production
+# Secrets
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# testing
+# typescript
+# vercel
+build/
+credentials*
+DerivedData/
+dist/
+next-env.d.ts
+node_modules/
 npm-debug.log*
+Thumbs.db
+venv/
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
